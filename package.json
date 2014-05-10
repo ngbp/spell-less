@@ -37,6 +37,11 @@
           "<%= paths.source_app %>/**/*.less"
         ]
       }
+    },
+    "tasks": {
+      "less-compile": {
+        "dumpLineNumbers": "comments"
+      }
     }
   },
   "dependencies": {
